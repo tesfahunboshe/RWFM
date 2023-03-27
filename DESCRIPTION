@@ -1,0 +1,18 @@
+Package: RWFM
+Title: WFM capacity planning and resouce planning calculations
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tesfahun Tegene", "Boshe", , "tesfahuntegene6@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0009-0002-9510-9625"))
+Description: This package can be used to calculate headcount requirement (FTEs),Service level, average speed of answering, % calls answered immediately,occupancy, schedule efficiency, per interval coverage, optimum schedule. It has everything you may need for your capacity and resource planning calculations.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+	dplyr,
+	ggplot2,
+	tidyr,
+	tibble,
+	rlang (>= 1.0.0)
