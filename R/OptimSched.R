@@ -45,7 +45,7 @@ OptimumSchedule <- function(cap_plan, shiftLength = 8,weeklyWorkingDays = 5,minE
         for (i in 1:ncol(DaysCombo))
         {
           dayStart = dayEnd <- DaysCombo[,i]
-          endTime <- startTime+shiftLength
+          endTime <- (startTime+shiftLength)%%intervals
           
           # schedule definition
           sched <- data.frame(DStart = dayStart,
@@ -216,7 +216,7 @@ gigSchedule <- function(cap_plan, shiftLength = 8,minEfficiency = 0.1,intervals 
         for( shiftL in minShiftLength:shiftLength)
         {
           
-          endTime <- startTime+shiftL
+          endTime <- (startTime+shiftL)%%intervals
           
           # schedule definition
           sched <- data.frame(DStart = i,
