@@ -96,4 +96,4 @@ accuracy_F(cvrg,Cap)
 ```
 
 ## Getting help
-This blog post and other future posts are main places to get help with ggplot2. Find the author 
+This [blog post](https://ttbwfm.com/rwfm-an-r-package-for-wfm-calculations/) and other future posts are main places to get help with ggplot2. Find the author at [Linkedin](https://www.linkedin.com/in/tesfahun-tegene-boshe/)
